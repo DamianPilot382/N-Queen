@@ -1,10 +1,9 @@
-  
 /**
  * @author Damian Ugalde
  * @date 2020-03-08
  * @version 1.0
  *
- * Project 1
+ * Project 2
  * CS 4200 - Artificial Intelligence
  * California State Polytechnic University, Pomona
  * Computer Science Department
