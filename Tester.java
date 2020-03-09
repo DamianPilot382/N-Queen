@@ -105,7 +105,6 @@ public class Tester {
 
         for(int i = 0; i < mutProb.length; i++){
             for(int j = 1; j <= iter; j++){
-                System.out.println("Running");
                 long time = System.currentTimeMillis();
                 Board b = GeneticAlgorithm.geneticAlgorithm(popSize, size, mutProb[i], iterations, popTop);
                 time = System.currentTimeMillis() - time;
