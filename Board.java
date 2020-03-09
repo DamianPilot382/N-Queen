@@ -76,8 +76,8 @@ public class Board implements Comparable<Board> {
         for(int i = 0; i < data.length; i++){
             for(int j = i + 1; j < data.length; j++){
                 
-                //Check for diagonal attacks
-                if((j - i) == Math.abs(data[j] - data[i]))
+                //Check for diagonal attacks and same row
+                if((j - i) == Math.abs(data[j] - data[i]) || data[i] == data[j])
                     count++;
             }
         }
